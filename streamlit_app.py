@@ -73,11 +73,3 @@ if streamlit.button('Add a Fruit to the List'):
     back_from_function = insert_row_snowflake(add_my_fruit)
     streamlit.text(back_from_function)
 
-#streamlit.dataframe(my_data_rows)
-
-# Allow the end user to add a fruit to the list
-
-#streamlit.write('Thanks for adding ', add_my_fruit)
-
-#This will not work correctly, but just go with it for now
-
